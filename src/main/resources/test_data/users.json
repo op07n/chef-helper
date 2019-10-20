@@ -1,0 +1,37 @@
+[
+	{
+		"username": "user-01",
+		"fullName": "Kiss Pista",
+		"description": "Something interesting about user 1."
+	},
+	{
+		"username": "user-02",
+		"fullName": "Nagy Anna",
+		"description": "Something interesting about user 2."
+	},
+	{
+		"username": "user-03",
+		"fullName": "Gömbölyű Gabi",
+		"description": "Something interesting about user 3."
+	},
+	{
+		"username": "user-04",
+		"fullName": "Kedves Kati",
+		"description": "Something interesting about user 4."
+	},
+	{
+		"username": "user-05",
+		"fullName": "Haragos Henrik",
+		"description": "Something interesting about user 5."
+	},
+	{
+		"username": "user-06",
+		"fullName": "Alávaló Aladár",
+		"description": "Something interesting about user 6."
+	},
+	{
+		"username": "user-07",
+		"fullName": "Trükkös Tóni",
+		"description": "Something interesting about user 7."
+	}
+]

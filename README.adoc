@@ -1,0 +1,5 @@
+== Chef helper
+
+This is a *non functional* fun project to test Kotlin with Tornadofx.
+Inspiration came from a real project that made me curious
+how hard can it be to implement a user interface that manages servers and users.

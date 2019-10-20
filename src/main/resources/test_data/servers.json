@@ -1,0 +1,82 @@
+[
+	{
+		"name": "server-01",
+		"ipAddress": "172.80.51.51",
+		"description": "Something interesting about this server-01.",
+		"users": [
+			{
+				"username": "user-01",
+				"isRoot": false
+			},
+			{
+				"username": "user-02",
+				"isRoot": true
+			},
+			{
+				"username": "user-03",
+				"isRoot": false
+			},
+			{
+				"username": "user-04",
+				"isRoot": false
+			}
+		]
+	},
+	{
+		"name": "server-02",
+		"ipAddress": "172.80.51.52",
+		"description": "Something interesting about this server-02.",
+		"users": [
+			{
+				"username": "user-01",
+				"isRoot": true
+			},
+			{
+				"username": "user-02",
+				"isRoot": false
+			},
+			{
+				"username": "user-03",
+				"isRoot": false
+			}
+		]
+	},
+	{
+		"name": "server-03",
+		"ipAddress": "172.80.51.53",
+		"description": "Something interesting about this server-03.",
+		"users": [
+			{
+				"username": "user-03",
+				"isRoot": true
+			},
+			{
+				"username": "user-04",
+				"isRoot": true
+			},
+			{
+				"username": "user-05",
+				"isRoot": true
+			}
+		]
+	},
+	{
+		"name": "server-04",
+		"ipAddress": "172.80.51.54",
+		"description": "Something interesting about this server-04.",
+		"users": [
+			{
+				"username": "user-03",
+				"isRoot": true
+			},
+			{
+				"username": "user-06",
+				"isRoot": true
+			},
+			{
+				"username": "user-07",
+				"isRoot": true
+			}
+		]
+	}
+]
