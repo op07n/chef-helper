@@ -38,13 +38,11 @@ jobs:
           name: chef-helper
           path: build/libs
           
-      - name: Release with Assets 
-        uses: UVASOMIT/action-release-with-assets@master
+      - name: Publish artefacts
+        uses: svenstaro/upload-release-action@v1-release
         with:
-           token: ${{ secrets.GITHUB_TOKEN }}
-           commitish: dev
-           files: 'build/libs'
-           prerelease: false
-           body: This is a release
-           name: Draft Release
-           tag: v1     
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: 'build/libs'
+          asset_name: 'chef-helper'
+          tag: ${{ github.ref }}
+          overwrite: true      
