@@ -27,13 +27,32 @@ dependencies {
   implementation("com.google.guava:guava:29.0-jre")
   implementation("com.atilika.kuromoji:kuromoji-ipadic:0.9.0")
   implementation("org.openjfx:javafx-controls:14")
-  implementation("no.tornado:tornadofx:1.7.17")
+  //implementation("no.tornado:tornadofx:1.7.17")
+  implementation("no.tornado:tornadofx:1.7.19")  
   compileOnly("org.openjfx:javafx-graphics:$javafxVersion.version:win")
   compileOnly("org.openjfx:javafx-graphics:$javafxVersion:linux")
   compileOnly("org.openjfx:javafx-graphics:$javafxVersion:mac")
 
   testImplementation("org.mockito:mockito-junit-jupiter:3.3.3")
   testImplementation("org.junit.jupiter:junit-jupiter-engine:5.6.2")
+  
+  
+  
+  
+	//implementation(kotlin("stdlib"))
+	
+	implementation("javax.inject:javax.inject:1")
+	implementation("com.google.inject:guice:4.2.2:no_aop")
+	
+	implementation(platform("com.fasterxml.jackson:jackson-bom:2.10.0"))
+	implementation("com.fasterxml.jackson.core:jackson-databind")
+	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+	
+	//implementation("org.openjfx:javafx-controls:13")
+	//implementation("no.tornado:tornadofx:1.7.19")  
+  
+  
+  
 }
 
 tasks.withType<Test> {
