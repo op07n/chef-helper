@@ -42,7 +42,7 @@ jobs:
         uses: svenstaro/upload-release-action@v1-release
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: 'build/libs'
+          file: 'build/libs/kotlin_tornadofx-0.0.1-SNAPSHOT-all.jar'
           asset_name: 'chef-helper'
           tag: ${{ github.ref }}
           overwrite: true      
