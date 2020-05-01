@@ -1,3 +1,6 @@
+Duplicate of https://github.com/groph/chef-helper.git
+
+
 == Chef helper
 
 This is a *non functional* fun project to test Kotlin with Tornadofx.
