@@ -38,7 +38,7 @@ jobs:
           name: chef-helper
           path: build/libs
           
-      - name: Release with Assets
+      - name: Release with Assets 
         uses: UVASOMIT/action-release-with-assets@master
         with:
            token: ${{ secrets.GITHUB_TOKEN }}
